@@ -2,7 +2,7 @@
 
 ## 🔹 Función principal
 
-![main](CAPTURAS/mainunctions.png)
+![main](CAPTURAS/mainfunctions.PNG)
 
 Se identificó la función principal del programa mediante el análisis en Ghidra. Aunque no aparece explícitamente con el nombre `main`, se determinó que esta función contiene la lógica principal del programa debido a la presencia de cadenas relevantes y llamadas a funciones del sistema.
 
@@ -14,7 +14,7 @@ Dentro de esta función se realizan operaciones de impresión de mensajes, evalu
 
 ## 🔹 Flujo de ejecución
 
-![flujo](CAPTURAS/Iflogic.png)
+![flujo](CAPTURAS/Iflogic.PNG)
 
 El programa inicia mostrando la cadena "MAGIC: edu-malware-sim".
 
@@ -29,7 +29,7 @@ Este flujo demuestra que el comportamiento del programa depende de una condició
 
 ## 🔹 Llamadas a API relevantes
 
-![api](CAPTURAS/API.png)
+![api](CAPTURAS/API.PNG)
 
 Durante el análisis se identificaron varias llamadas a funciones de la API de Windows:
 
@@ -43,7 +43,7 @@ Estas funciones son comúnmente utilizadas por programas que interactúan direct
 
 ## 🔹 Reconstrucción de estructura
 
-![variable](CAPTURAS/Variable.png)
+![variable](CAPTURAS/Variable.PNG)
 
 Se identificó una variable interna utilizada para controlar el flujo del programa. Esta variable es comparada dentro de una estructura condicional `if`.
 

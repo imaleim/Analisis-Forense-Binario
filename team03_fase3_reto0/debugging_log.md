@@ -20,7 +20,7 @@ push team_sample_parched.CD1E0
 
 Esto permitió detener la ejecución dentro del flujo principal del programa.
 
-![Breakpoint en main](capturas/breakpoint_main.png)
+![Breakpoint en main](CAPTURAS/breakpoint_main.png)
 
 ---
 
@@ -34,7 +34,7 @@ Este watchpoint permitió monitorear accesos a la región de memoria donde se al
 
 Durante la ejecución del programa el debugger detectó acceso a esta región, confirmando su uso activo dentro del flujo del ejecutable.
 
-![Watchpoint activado](capturas/watchpoint_triggered.png)
+![Watchpoint activado](CAPTURAS/watchpoint_triggered.png)
 
 ---
 
@@ -62,7 +62,7 @@ Durante la ejecución de las instrucciones CALL se observaron modificaciones en 
 
 Estos cambios confirman la ejecución dinámica correcta del binario y la interacción con memoria interna del proceso.
 
-![Cambios en registros](capturas/step_execution_registers.png)
+![Cambios en registros](CAPTURAS/step_execution_registers.png)
 
 ---
 

@@ -2,7 +2,7 @@
 
 ## Información del equipo
 
-- **Equipo:** Team03  
+- **Equipo:** Team04  
 - **Materia:** Seguridad en Tecnologías de la Información  
 - **Proyecto:** Análisis Forense Completo de un Binario  
 

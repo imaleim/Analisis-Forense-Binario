@@ -62,7 +62,6 @@ Durante la ejecución de las instrucciones CALL se observaron modificaciones en 
 
 Estos cambios confirman la ejecución dinámica correcta del binario y la interacción con memoria interna del proceso.
 
-![Cambios en registros](CAPTURAS/step_execution_registers.png)
 
 ---
 
